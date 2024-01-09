@@ -1,0 +1,59 @@
+<div class="login-container">
+    <div class="login-body">
+        <img src="../../assets/logo.png">
+        <ngb-alert type="danger" *ngIf="showErroAlert">Erro ao realizar login</ngb-alert>
+        <ngb-alert type="success" *ngIf="showSuccessAlert">Cadastro realizado com sucesso!</ngb-alert>
+        <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+            <li [ngbNavItem]="1">
+                <button ngbNavLink>Login</button>
+                <ng-template ngbNavContent>
+                    <div class="form-login">
+                        <form (ngSubmit)="login()">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Digite seu email" [(ngModel)]="usuario.email">
+                            </div>
+                            <div class="form-group">
+                                <label for="senha">Senha</label>
+                                <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha"
+                                    [(ngModel)]="usuario.senha">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Entrar</button>
+                        </form>
+
+                    </div>
+                </ng-template>
+            </li>
+            <li [ngbNavItem]="2">
+                <button ngbNavLink>Cadastro</button>
+                <ng-template ngbNavContent>
+                    <form (ngSubmit)="criarUsuario()">
+                        <div class="form-group">
+                            <label for="email">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" name="nome"
+                                [(ngModel)]="newUsuario.nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                placeholder="Digite seu email" name="email" [(ngModel)]="newUsuario.email">
+                        </div>
+                        <div class="form-group">
+                            <label for="senha">Senha</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha"
+                                name="senha" [(ngModel)]="newUsuario.senha">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </form>
+                </ng-template>
+            </li>
+        </ul>
+
+        <div [ngbNavOutlet]="nav" class="mt-2"></div>
+
+
+    </div>
+</div>

@@ -1,0 +1,37 @@
+<div class="modal-editar-usuario-container">
+    <div class="modal-editar-usuario-header">
+        <h1>Editar usuario</h1>
+        <h3 class="close-modal" (click)="handleCloseModal()">X</h3>
+    </div>
+    <div class="modal-editar-usuario-body">
+        <div>
+            <div class="atual-imagem-container">
+                <img class="atual-imagem" [src]="getImagePath(imagemAtual)">
+            </div>
+            <div>
+                <img *ngFor="let image of images" [src]="getImagePath(image)" (click)="atualizarImagemAtual(image)">
+            </div>
+        </div>
+
+        <div>
+            <form>
+                <div class="form-group">
+                    <label for="codigo">Nome</label>
+                    <input type="text" id="codigo" name="codigo" [(ngModel)]="usuario.nome" class="form-control"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="nome">Email</label>
+                    <input type="text" id="nome" name="nome" [(ngModel)]="usuario.email" class="form-control" required>
+                </div>
+
+                <div class="btn-adicionar-usuario">
+                    <button type="submit" (click)="handleEditUsuario()" class="btn btn-primary">Salvar Mudança</button>
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</div>

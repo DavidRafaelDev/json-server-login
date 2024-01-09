@@ -1,0 +1,119 @@
+{
+  "user": [
+    {
+      "nome": "admin 2",
+      "email": "admin@admin.com",
+      "imagem": "../../assets/crash.png",
+      "id": 1
+    },
+    {
+      "nome": "admin 2",
+      "email": "admin2@admin.com",
+      "imagem": "../../assets/user.png",
+      "id": 1,
+      "senha": "senha123"
+    },
+    {
+      "nome": "David ",
+      "email": "david@gmail.com",
+      "imagem": "../../assets/among.png",
+      "id": 2
+    }
+  ],
+  "produto": [
+    {
+      "id": 2,
+      "nome": "Notebook Gamer",
+      "categoria": "varejo"
+    },
+    {
+      "id": 3,
+      "nome": "Câmera de Segurança",
+      "categoria": "atacado"
+    },
+    {
+      "id": 4,
+      "nome": "Smart TV",
+      "categoria": "internacional"
+    },
+    {
+      "id": 5,
+      "nome": "Fone de Ouvido Esportivo",
+      "categoria": "varejo"
+    },
+    {
+      "id": 6,
+      "nome": "Mala de Viagem",
+      "categoria": "internacional"
+    },
+    {
+      "id": 7,
+      "nome": "Console de Jogos Portátil",
+      "categoria": "varejo"
+    },
+    {
+      "id": 8,
+      "nome": "Cafeteira Automática",
+      "categoria": "atacado"
+    },
+    {
+      "id": 9,
+      "nome": "Tablet Profissional",
+      "categoria": "internacional"
+    },
+    {
+      "id": 10,
+      "nome": "Impressora Multifuncional",
+      "categoria": "atacado"
+    },
+    {
+      "id": 11,
+      "nome": "Relógio Inteligente",
+      "categoria": "varejo"
+    }
+  ],
+  "update": [
+    {
+      "idProduto": 2,
+      "nome": "admin",
+      "data": "2023-12-27T12:17:29.919Z",
+      "id": 1
+    },
+    {
+      "idProduto": 4,
+      "nome": "admin ",
+      "data": "2023-12-27T12:17:36.024Z",
+      "id": 2
+    },
+    {
+      "idProduto": 3,
+      "nome": "admin 1",
+      "data": "2023-12-27T12:17:40.250Z",
+      "id": 3
+    },
+    {
+      "idProduto": 2,
+      "nome": "admin 1",
+      "data": "2023-12-27T12:17:48.062Z",
+      "id": 4
+    },
+    {
+      "idProduto": "12",
+      "nome": "teste final",
+      "data": "2023-12-27T12:26:39.659Z",
+      "id": 5
+    },
+    {
+      "idProduto": 12,
+      "nome": "David teste",
+      "data": "2023-12-27T12:46:36.778Z",
+      "id": 6
+    },
+    {
+      "idProduto": 12,
+      "nome": "David teste",
+      "data": "2023-12-27T12:46:44.332Z",
+      "id": 7
+    }
+  ]
+}

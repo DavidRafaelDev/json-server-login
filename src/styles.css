@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+  .btn-primary{
+    background: #E55800;
+    border: none;
+}
+.btn-primary:hover{
+    background: #b94d0a;
+    
+}

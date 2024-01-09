@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E55800;
+}
+.table-icon{
+    cursor: pointer;
+}
+.filter-container{
+    display: flex;
+    align-items: center;
+
+}
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 2vh;
+}
+.filter-inputs{
+    display: flex;
+
+    align-items: center;
+}
+.input-pesquisar{
+    display: flex;
+    margin-left: 2vh;
+    align-items: center;
+}
+.add-produto{
+    cursor: pointer;
+}
+.image{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 5vh;
+    margin-right: 1vh;
+}
+
+input{
+    width: 20vh;
+    height: 3vh;
+    margin: 1vh;
+}

@@ -1,0 +1,53 @@
+.modal-editar-usuario-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 2vh;
+}
+.modal-editar-usuario-header{
+    padding: 2vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.close-modal{
+    cursor: pointer;
+}
+
+.btn-adicionar-usuario{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+.modal-editar-usuario-body{
+    display: flex;
+    flex-direction: row;
+}
+.updates{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh
+}
+.atual-imagem-container{
+    display: flex;
+    justify-content: center;
+}
+.atual-imagem{
+    width: 15vh;
+}
+form{
+    border: 1px solid black;
+    padding: 2vh;
+    width: 40vh;
+}
+input{
+    margin: 1vh;
+}
+button{
+    align-items: center;
+    width: 90%;
+}
+img{
+    width: 10vh;
+    cursor: pointer;
+}
