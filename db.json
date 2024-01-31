@@ -70,6 +70,11 @@
       "id": 11,
       "nome": "Relógio Inteligente",
       "categoria": "varejo"
+    },
+    {
+      "id": 0,
+      "nome": "dsadsa",
+      "categoria": "atacado"
     }
   ],
   "update": [
